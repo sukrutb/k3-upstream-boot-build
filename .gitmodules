@@ -6,7 +6,8 @@
 	url = https://github.com/OP-TEE/optee_os.git
 [submodule "u-boot"]
 	path = u-boot
-	url = https://source.denx.de/u-boot/u-boot.git
+	url = https://github.com/nmenon/fix-k3-dt-u-boot.git
+	branch = fix-k3-dts
 [submodule "ti-linux-firmware"]
 	path = ti-linux-firmware
 	url = https://git.ti.com/cgit/processor-firmware/ti-linux-firmware
